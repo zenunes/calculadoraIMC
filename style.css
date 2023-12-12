@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9a9a9;
+    font-size: 1.6rem;
+    
+   
+}
+.container{
+    background-color: white;
+    width:35rem;
+    height: 50rem;
+    margin: auto;
+    padding: 4.0rem;
+    border-radius: 3.2rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+fieldset{
+    border: 0;
+    padding:1.0rem 1.0rem;
+    
+}
+legend{
+    font-size: 2.8rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+}
+    
+.calcular button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    margin: 0.6rem 0;
+    border: none;
+    cursor: pointer;
+    background-color:rebeccapurple;
+    color: white;
+
+}
+.calcular button:hover{
+    background-color: blueviolet;
+}
+.res {
+    padding: 10px ;
+    width: auto;
+    height: 10rem;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: .5rem;
+}
